@@ -4,67 +4,79 @@
 
 # 1. STRING INTRODUCTION
 # --------------------------------------------------
-s = "hello world"
-print(s)
-print(type(s))
+# s = 'hello world'
+# print(s)
+# print(type(s))
 
-print("\n-----------------------------\n")
+# print("\n-----------------------------\n")
 
-# 2. STRING AS ARRAY (INDEXING)
-# --------------------------------------------------
-s = "python"
-print(s[0])
-print(s[1])
-print(s[-1])
+# # 2. STRING AS ARRAY (INDEXING)
+# # --------------------------------------------------
+# s = "python    a"
+# print(s[0])
+# print(s[1])
+# print(s[-1])
 
-print("\n-----------------------------\n")
+# print("\n-----------------------------\n")
 
-# 3. STRING LENGTH
-# --------------------------------------------------
-s = "hello world"
-print(len(s))
-print(s.__len__())
+# # 3. STRING LENGTH
+# # --------------------------------------------------
+# s = "hello world"
+# print(len(s))
+# print(s.__len__())
 
-print("\n-----------------------------\n")
+# print(s[len(s)-5])
 
-# 4. STRING CHECK METHODS
-# --------------------------------------------------
-s = "hello"
-print(s.isalpha())  #alpha
+# print("\n-----------------------------\n")
 
-s = "908"
-print(s.isalnum())   #alpha and numbers
+# # 4. STRING CHECK METHODS
+# # --------------------------------------------------
+# s = "hello23"
+# print(s.isalpha())  #alpha
 
-s = "123"
-print(s.isdigit())  #num
+# s = "908gggh#"
+# print(s.isalnum())   #alpha and numbers
 
-s = "hello"
-print(s.islower())
+# s = "123hjghghj"
+# print(s.isdigit())  #num
 
-s = "HELLO"
-print(s.isupper())
+# s = "hello"
+# print(s.islower())
 
-s = "Hello World"
-print(s.istitle())
+# s = "HELLO"
+# print(s.isupper())
+
+# s = "Hello world"
+# print(s.istitle())
 
 # print("\n-----------------------------\n")
 
 # # 5. PYTHON STRING SLICING
 # # --------------------------------------------------
 # s = "hello world"
-# print(s[2:5])
-# print(s[:5])
-# print(s[6:])
-# print(s[-5:])
-# print(s[::-1])
+
+# s="0123456789"
+ 
+
+# [start:stop:step]
+# print(s[2:5])     
+# print(s[:5])     
+# print(s[6:])      
+# print(s[1:8])     
+# print(s[-5:])    
+# print(s[-11:-5])     
+
+# print(s[1:8:1])   
+# print(s[1:10:4])         
+# print(s[::-2])
 
 # print("\n-----------------------------\n")
 
 # # 6. MODIFY STRINGS
 # # --------------------------------------------------
-# s = "hello world"
-# print(s.capitalize())
-# print(s.upper())
+# s = "Hello world"
+# # print(s.capitalize())
+# # print(s.upper())
 # print(s.lower())
 # print(s.replace("world", "python"))
 
@@ -74,7 +86,8 @@ print(s.istitle())
 # # --------------------------------------------------
 # a = "hello"
 # b = "world"
-# print(a + " " + b)
+# print(a+b)
+# print(a + ' ' + b)
 
 # print("\n-----------------------------\n")
 
@@ -82,7 +95,7 @@ print(s.istitle())
 # # --------------------------------------------------
 # name = "Sona"
 # age = 22
-
+# print("My name is",name, "and my age is", age)
 # print(f"My name is {name} and my age is {age}")
 # print("My name is {} and my age is {}".format(name, age))
 # print("My name is %s and my age is %d" % (name, age))
@@ -92,11 +105,11 @@ print(s.istitle())
 # # 9. STRING METHODS
 # # --------------------------------------------------
 
-# # capitalize()
+# capitalize()
 # s = "hello world"
 # print(s.capitalize())
 
-# # startswith()
+# startswith()
 # print(s.startswith("hello"))
 # print(s.startswith("hello", 0, 5))
 

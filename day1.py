@@ -109,6 +109,10 @@
 # print("First fruit:", fruits[0])
 # print("Type of fruits:", type(fruits))
 
+# a=(1,2,3,4)
+# a[0]=8
+# print(a)
+
 # print("\n")
 
 # # 4.2 Tuple (immutable, ordered)
@@ -117,23 +121,25 @@
 # print("Second number:", numbers[1])
 # print("Type of numbers:", type(numbers))
 
+# b=[1]
+# print(type(b))
+
+# a=(1,)
+# print(type(a))
+
 # print("\n")
 
 # # 4.3 Set (unordered, unique values)
-# unique_numbers = {1, 2, 3, 3, 4}
+# unique_numbers = {9,6,3,2,5,7}
 # print("Set:", unique_numbers)
 # print("Type of unique_numbers:", type(unique_numbers))
 
 # print("\n")
 
 # # 4.4 Dictionary (key-value pairs)
-# student = {
-#     "name": "Sona",
-#     "age": 22,
-#     "course": "AI & ML"
-# }
+# student = { "name": "Sona", "age": 22,"course": "AI & ML"}
 # print("Dictionary:", student)
-# print("Student Name:", student["name"])
+# print("Student Name:", student["age"])
 # print("Type of student:", type(student))
 
 # print("\n-------------------------------\n")
@@ -148,10 +154,17 @@
 # print("After int conversion:", y, "Type:", type(y))
 # print("After float conversion:", z, "Type:", type(z))
 
+
+# x=int(1.5)
+# print(x)
+
 # print("\n-------------------------------\n")
 
 # # 6. SIMPLE INPUT AND OUTPUT
 # # -------------------------------
+# a=int(input("enter name :"))
+# print("my name is ",a)
+# print(type(a))
 # user_name = input("Enter your name: ")
 # user_age = int(input("Enter your age: "))
 
@@ -159,3 +172,50 @@
 # print("You will be", user_age + 1, "years old next year.")
 
 # print("\n--- End of Program ---")
+
+# 1) write python program to print hello world
+
+# 2) write python program to add 2 nos 
+
+# a=34
+# b=56
+# print(a+b)
+
+# 3) write python program to find add,sub,mul,div of 3 nos from user input
+
+
+# a=int(input("enter a"))
+# b=int(input("enter b"))
+# c=int(input("enter c"))
+
+# print(a+b+c)
+# print(a-b-c)
+# print(a*b*c)
+# print(a/b)
+
+
+# 4) python program to swap 2 nos
+
+#python program to swap 2 values without temp variable  ?
+a=34
+b=56
+
+
+a,b=b,a
+
+# c=a   
+# a=b 
+# b=c  
+print("a value:",a)
+print("b value:",b)
+
+
+
+
+# 5) write python program to display input name and age as 
+      #"my name is _______ and i am  _____"
+
+
+
+
+
