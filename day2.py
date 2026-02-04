@@ -31,8 +31,8 @@
 
 # # 4. STRING CHECK METHODS
 # # --------------------------------------------------
-# s = "hello23"
-# print(s.isalpha())  #alpha
+s = "hello"
+print(s.isalpha())  #alpha
 
 # s = "908gggh#"
 # print(s.isalnum())   #alpha and numbers
@@ -132,25 +132,33 @@
 # print(s.find("world"))
 # print(s.find("world", 0, 11))
 
-# # isalpha()
-# s = "hello"
+# s="anisha"
+# print(s)
+# print(s[0])
+# print(s[2])
+# a=len(s)
+# print(s[6])
+# print(len(s))
+
+# isalpha()
+# s = "hello5"
 # print(s.isalpha())
 
-# # strip()
-# s = " hello world "
+# strip()
+# s = "      hello world "
 # print(s.strip())
 
-# s = "*****hello world*****"
-# print(s.strip("*"))
+# s = "hello worldo"
+# print(s.strip("o"))
 
-# # replace()
-# s = "hello world"
-# print(s.replace("world", "python"))
+# replace()
+# s = "hello world worldo worldvgdtjdydhjgdktdtkd"
+# print(s.replace("w", "p"))
 
-# s = "hello world world"
-# print(s.replace("world", "python", 1))
+# s = "hello world world world world"
+# print(s.replace("world", "python", 2))
 
-# # zfill()
+# zfill()
 # s = "45"
 # print(s.zfill(5))
 
@@ -162,10 +170,10 @@
 
 # # count()
 # s = "hello world world"
-# print(s.count("world"))
-# print(s.count("world", 6))
+# # print(s.count("world"))
+# print(s.count("world", 0,11))
 
-# # split()
+# split()
 # s = "hello world"
 # print(s.split())
 
@@ -177,9 +185,7 @@
 # # 10.other important methods
 # # --------------------------------------------------
 
-# # join()
-# words = ["hello", "world"]
-# print(" ".join(words))
+
 
 # # swapcase()
 # s = "Hello World"
