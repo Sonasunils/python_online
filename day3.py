@@ -177,7 +177,7 @@
 
 # print("\n-----------------------------\n")
 
-# # SINGLE ELEMENT TUPLE
+# SINGLE ELEMENT TUPLE  
 # t4 = (10,)
 # print(t4)
 # print(type(t4))
@@ -207,7 +207,8 @@
 # # 4. IMMUTABILITY OF TUPLE
 # # --------------------------------------------------
 # # Tuples cannot be modified
-# # t[1] = 100  #  Error
+# t[1] = 100  #  Error
+# print(t)
 
 # print("Tuple is immutable")
 
@@ -260,6 +261,7 @@
 # print(a)
 # print(b)
 # print(c)
+# print(t)
 
 # print("\n-----------------------------\n")
 
