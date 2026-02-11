@@ -1,30 +1,56 @@
-# # ==================================================
-# # PYTHON CONTROL STATEMENTS
-# # File Name: control_statements.py
-# # ==================================================
+# ==================================================
+# PYTHON CONTROL STATEMENTS
+# File Name: control_statements.py
+# ==================================================
+
+
+# print(6)
+# print(7)
 
 # # 1. IF STATEMENT
 # # --------------------------------------------------
-# x = 10
+# x = 4
 
-# if x > 5:
+# if x > 5:        
 #     print("x is greater than 5")
+
+
+# n=1
+# if n==1:
+#     print("yes")
+#     print("uidyuifuiduidf")
 
 # print("\n-----------------------------\n")
 
 # # 2. IF-ELSE
 # # --------------------------------------------------
-# age = 18
+# age = 17
 
 # if age >= 18:
 #     print("Eligible to vote")
 # else:
 #     print("Not eligible to vote")
 
+# a=int(input("enter a no"))
+# if a%2==1:                    
+#     print("odd number")
+# else:
+#     print("even number")
+
 # print("\n-----------------------------\n")
 
 # # 3. IF-ELIF-ELSE
 # # --------------------------------------------------
+# a=int(input("enter a no"))
+# if a>0:
+#     print("+ve no")
+# elif a<0:
+#     print("-ve no")
+# else:
+#     print("the given no 0")
+
+
+
 # marks = 75
 
 # if marks >= 90:
@@ -33,20 +59,24 @@
 #     print("Grade B")
 # elif marks >= 50:
 #     print("Grade C")
+
 # else:
 #     print("Fail")
+
 
 # print("\n-----------------------------\n")
 
 # # 4. NESTED IF
 # # --------------------------------------------------
-# num = 15
+# num = 1
 
 # if num > 0:
 #     if num % 2 == 0:
 #         print("Positive Even Number")
 #     else:
 #         print("Positive Odd Number")
+# else:
+#     print("u entered -ve no")
 
 # print("\n-----------------------------\n")
 
@@ -54,8 +84,40 @@
 # # --------------------------------------------------
 # print("For Loop Example")
 
-# for i in range(1, 6):
+# for i in range(1, 6):     
 #     print(i)
+
+
+# s="python"
+# for p in s:     
+#     print(p)
+
+# s="python"
+# n=len(s)
+
+# for i in range(n):  
+   
+#     print(s[i])   
+
+
+# for i in range (10,4,-2):
+#     print(i)
+
+# n=7
+# for i in range(1,11):    
+#     print(n,'*',i,"=",n*i)
+
+
+# l=(1,2,3,4,5)
+# sum=0
+# for i in l:
+#     sum=sum+i    
+#     print(sum)
+
+
+# for i in range(2,5):     
+#     print(i)
+
 
 # print("\n-----------------------------\n")
 
@@ -63,12 +125,33 @@
 # # --------------------------------------------------
 # print("While Loop Example")
 
-# count = 1
+# count = 1        
 # while count <= 5:
 #     print(count)
-#     count += 1
+#     count += 1  
+
+# n=5
+# sum=0
+# i=1
+# while i <=n:
+#     sum=sum+i
+#     i=i+1
+# print(sum)
+
+# s=1
+# while s>0:
+#     print(s)
+#     s=s+1
 
 # print("\n-----------------------------\n")
+
+
+
+
+
+
+
+
 
 # # 7. BREAK STATEMENT
 # # --------------------------------------------------
