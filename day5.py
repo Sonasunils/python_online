@@ -12,7 +12,7 @@
 # print(a - b)    # Subtraction
 # print(a * b)    # Multiplication
 # print(a / b)    # Division
-# print(a % b)    # Modulus
+# print(a % b)   # Modulus
 # print(a ** b)   # Exponentiation
 # print(a // b)   # Floor Division
 
@@ -40,15 +40,19 @@
 # x **= 2
 # print(x)
 
-# x //= 2
+# x //= 2    # x=x//2
 # print(x)
 
 # print("\n-----------------------------\n")
 
-# # 3. COMPARISON (RELATIONAL) OPERATORS
-# # --------------------------------------------------
-# a = 10
-# b = 20
+# 3. COMPARISON (RELATIONAL) OPERATORS
+# --------------------------------------------------
+# a = 20
+# b = 19
+
+# a=b
+# b=a
+# print(a)
 
 # print(a == b)
 # print(a != b)
@@ -72,15 +76,15 @@
 
 # # 5. BITWISE OPERATORS
 # # --------------------------------------------------
-a = 5      # 0101
+a = 5      # 0101    
 b = 3      # 0011
 
-print(a & b)   # AND
-print(a | b)   # OR
-print(a ^ b)   # XOR
-print(~a)      # NOT
-print(a << 1)  # Left shift
-print(a >> 1)  # Right shift
+# print(a & b)   # AND
+# print(a | b)   # OR
+# print(a ^ b)   # XOR
+# print(~a)      # NOT
+# print(a << 1)  # Left shift
+# print(a >> 1)  # Right shift
 
 # print("\n-----------------------------\n")
 
@@ -102,6 +106,8 @@ print(a >> 1)  # Right shift
 
 # print(a is b)
 # print(a is not b)
+# print(id(a))
+# print(id(b))
 # print(c is d)
 # print(c == d)
 
@@ -115,4 +121,4 @@ print(a >> 1)  # Right shift
 # result = (10 + 5) * 2
 # print(result)
 
-print("\n--- END OF OPERATORS ---")
+# print("\n--- END OF OPERATORS ---")
