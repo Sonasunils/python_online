@@ -28,10 +28,10 @@
 # print("Second List:", list3)
 
 
-# # ------------------------------------
-# # 4. Find elements present in list1 but not in list3
-# # ------------------------------------
-# difference = [x for x in list1 if x not in list4]
+# ------------------------------------
+# 4. Find elements present in list1 but not in list3
+# ------------------------------------
+# difference = [x for x in list3 if x not in list4]
 
 # print("Elements in list1 but not in list3:", difference)
 
@@ -56,7 +56,7 @@
 # # 2. Reverse number without using inbuilt function
 # # -----------------------------------
 
-# num2 = 12345
+# num2 = 123
 # reverse = 0
 
 # while num2 > 0:

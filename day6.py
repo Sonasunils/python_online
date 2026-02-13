@@ -168,8 +168,8 @@
 # # --------------------------------------------------
 # print("Continue Example")
 
-# for i in range(1, 6):
-#     if i == 3:
+# for i in range(1, 10):
+#     if i == 5 or i==8:
 #         continue
 #     print(i)
 
@@ -180,8 +180,15 @@
 # print("Pass Example")
 
 # for i in range(3):
-#     pass  # Placeholder (does nothing)
+#     pass
+     # Placeholder (does nothing)
 
+# l=[-1,-2,0,1,2]
+# for i in l:
+#     if i>=0:
+#         pass
+#     else:
+#         print(i)
 # print("Loop executed with pass")
 
 # print("\n-----------------------------\n")
@@ -191,7 +198,7 @@
 # print("Assert Example")
 
 # a = 10
-# b = 5
+# b = 15
 
 # assert a > b, "a should be greater than b"
 
@@ -209,3 +216,22 @@
 #     print("Loop completed successfully")
 
 # print("\n--- END OF CONTROL STATEMENTS ---")
+
+
+
+
+# for i in range(1,3):       
+#     for j in range (4):
+#         print("i=",i,"\t","j=",j)
+
+
+
+# for i in range(1,6):
+#     print("*"*i)
+
+
+
+# for i in range(1,6):    
+#     for j in range(1,i+1):  
+#         print("*",end="")
+#     print()
