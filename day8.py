@@ -8,6 +8,33 @@
 #     print("Hello, Welcome to Python Functions")
 
 # hello()
+# hello()
+
+
+# def sem1(a,b):
+#     f=a+b
+#     return f
+
+# def sem2(c,d):
+#     m=c+d
+#     return m
+
+# a=int(input("enter sem1 a:"))
+# b=int(input("enter sem1 b"))
+# c=int(input("enter sem2 a:"))
+# d=int(input("enter sem2 b"))
+# sem1_mark=sem1(a,b)
+# sem2_mark=sem2(a,b)
+# total=sem1_mark+sem2_mark
+# print(total)
+
+    
+
+
+
+
+
+
 
 
 # # -----------------------------------------
@@ -18,6 +45,7 @@
 #     print("Hello", name)
 
 # greet("Sona")
+# greet("anu")
 
 
 # # -----------------------------------------
@@ -31,12 +59,17 @@
 # print("Sum:", result)
 
 
+
+
+
+
 # # -----------------------------------------
 # # 4. Function without argument but with return
 # # -----------------------------------------
 
 # def get_number():
-#     return 100
+#     a=int(input("enter value:"))
+#     return a
 
 # num = get_number()
 # print("Returned number:", num)
@@ -51,8 +84,15 @@
 #         print(n, "is Even")
 #     else:
 #         print(n, "is Odd")
+# n=int(input("enter no to check"))
+#check_even_odd(n)
 
-# check_even_odd(7)
+
+# n=78
+# if n % 2 == 0:
+#     print(n, "is Even")
+# else:
+#     print(n, "is Odd")
 
 
 # # -----------------------------------------
@@ -114,7 +154,7 @@
 
 
 
-# 1. Palindrome Number
+# 1. Palindrome Number      
 
 # Write a program to check whether a given number is a palindrome or not.
 
