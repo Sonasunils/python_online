@@ -112,10 +112,10 @@
 # def factorial(n):
 #     fact = 1
 #     for i in range(1, n+1):
-#         fact *= i
+#         fact *= i       
 #     return fact
 
-# print("Factorial:", factorial(5))
+# print("Factorial:", factorial(3))
 
 
 # # -----------------------------------------
@@ -133,13 +133,14 @@
 #         print(n, "is Not Prime")
 
 # check_prime(7)
+# check_prime(10)
 
 
 # # -----------------------------------------
 # # 9. Function to reverse a number
 # # -----------------------------------------
 
-# def reverse_number(n):
+# def reverse_number(n):    
 #     rev = 0
 #     while n > 0:
 #         digit = n % 10
@@ -161,6 +162,30 @@
 # Example:
 # Input: 121
 # Output: Palindrome
+
+# def reverse_number(n):
+#     rev = 0
+#     while n > 0:
+#         digit = n % 10
+#         rev = rev * 10 + digit
+#         n = n // 10
+#     return rev
+# n=int(input("enter no to check"))
+# # print("Reversed number:", reverse_number(n))
+# rev_ans=reverse_number(n)
+
+# if n==rev_ans:
+#     print("palindrome")
+# else:
+#     print("not palindrome")
+
+
+
+
+
+
+
+
 
 # 2. Multiplication Table
 
@@ -248,11 +273,51 @@
 # # 10. Function using default argument
 # # -----------------------------------------
 
+
+#defualt argument
 # def country(name="India"):
 #     print("Country:", name)
 
 # country()
 # country("USA")
+
+
+
+# def shop(product,cost=0):
+#     print("product",product)
+#     print("cost:",cost)
+# shop("flour",200)
+# shop("curd")
+# shop('milk')
+
+
+#positional argument
+
+# def attach(s1,s2):
+#     s3=s1+s2
+#     print(s3)
+# attach("com","puter")
+
+#keyword argument
+
+# def attach(s1,s2):
+#     s3=s1+s2
+#     print(s3)
+# attach(s1="com",s2="puter")
+# attach(s2="ble",s1="ta")
+
+
+
+#variable lenth argument
+
+# def add(*a):
+#     sum=0
+#     for i in a:
+#         sum=sum+i
+#     print(sum)
+# add(1,2,3,4,5)
+# add(3,4)
+
 
 
 # # -----------------------------------------
@@ -264,6 +329,8 @@
 #     print("Age:", age)
 
 # student(age=20, name="Anu")
+
+
 
 
 # # -----------------------------------------
