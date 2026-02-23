@@ -7,7 +7,7 @@
 
 # numbers = [1, 2, 3, 4, 5, 6, 7, 8]
 
-# even_numbers = list(filter(is_even, numbers))
+# even_numbers = list(filter(is_even, numbers))    # flter(function,sequence)
 
 # print("Original list:", numbers)
 # print("Even numbers:", even_numbers)
@@ -27,6 +27,8 @@
 
 # odd_numbers = list(filter(is_odd, numbers))
 
+
+
 # print("\nOdd numbers:", odd_numbers)
 
 
@@ -39,7 +41,7 @@
 
 # numbers = [1, 2, 3, 4, 5]
 
-# result = list(map(square, numbers))
+# result =set( map(square, numbers))
 
 # print("Original list:", numbers)
 # print("Squares using map:", result)
@@ -63,19 +65,19 @@
 # # 1. Lambda function to print square of a number
 # # -----------------------------------------
 
-# square = lambda x: x * x
+# square = lambda x: x * x       #variable_name=lambda arg-list: expression 
 
 # num = 5
-# print("Square using lambda:", square(num))
+# print("Square using lambda:", square(num))      #variable_name(arg_list)
 
 
 # # -----------------------------------------
 # # 2. Lambda function example (addition)
 # # -----------------------------------------
 
-# add = lambda a, b: a + b
+# add = lambda a, b,c: a + b+c
 
-# print("Sum using lambda:", add(10, 20))
+# print("Sum using lambda:", add(10, 20,60))
 
 
 # # -----------------------------------------
@@ -87,6 +89,11 @@
 # squares = list(map(lambda x: x * x, numbers))
 
 # print("Squares using map:", squares)
+
+
+
+# m=[1,2,3]
+# print(m*m)
 
 
 
@@ -127,3 +134,15 @@
 #     print(num, "is Prime number")
 # else:
 #     print(num, "is Not Prime number")
+
+
+
+
+# def fib(n):
+#     if n==1:
+#         return 0
+#     elif n==2:
+#         return 1
+#     else:
+#         return fib(n-1)+fib(n-2)    
+# print(fib(10))
