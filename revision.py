@@ -89,61 +89,90 @@
 # n = 121
 # print("Palindrome" if str(n)==str(n)[::-1] else "Not Palindrome")
 
+"""-----------------------------------------day2----------------------------"""
+
 # 🔹 STRING PROGRAMS (16–25)
 
 # 16. Reverse string
+
 # s = "python"
 # print(s[::-1])
+
 # 17. Check palindrome string
 # s = "madam"
 # print("Palindrome" if s==s[::-1] else "Not")
+
 # 18. Count vowels
+# count=0
 # s = "hello"
-# count = sum(1 for ch in s if ch in "aeiou")
+# for ch in s:
+#     if ch in "aeiou":
+#         count=count+1
 # print(count)
+
 # 19. Count consonants
-# s = "hello"
-# count = sum(1 for ch in s if ch.isalpha() and ch not in "aeiou")
+
+# count=0
+# s = "hello12"
+# for ch in s:
+#     if ch.isalpha():
+
+#         if ch not in "aeiou":
+#             count=count+1
 # print(count)
+
 # 20. Count words
 # s = "I love python"
 # print(len(s.split()))
+
 # 21. Convert uppercase to lowercase
 # s = "HELLO"
 # print(s.lower())
+
 # 22. Remove spaces
 # s = "hello world"
 # print(s.replace(" ", ""))
+
 # 23. Find string length without len()
 # s = "python"
 # count = 0
 # for i in s:
 #     count += 1
 # print(count)
+
 # 24. Count character frequency
 # s = "hello"
 # d = {}
 # for ch in s:
 #     d[ch] = d.get(ch,0)+1
 # print(d)
+
 # 25. Check anagram
 # s1 = "listen"
 # s2 = "silent"
 # print(sorted(s1)==sorted(s2))
+
 # 🔹 LIST PROGRAMS (26–35)
+
 # 26. Find largest element
 # lst = [4,7,1,9]
 # print(max(lst))
+
 # 27. Find smallest element
 # print(min(lst))
+
 # 28. Sum of list
 # print(sum(lst))
+
 # 29. Remove duplicates
 # lst = [1,2,2,3]
 # print(list(set(lst)))
+
 # 30. Reverse list
 # lst.reverse()
 # print(lst)
+
+
 # 31. Sort list
 # lst.sort()
 # print(lst)
@@ -151,22 +180,28 @@
 # lst = [10,20,30,40]
 # lst.sort()
 # print(lst[-2])
+
 # 33. Merge two lists
 # a = [1,2]
 # b = [3,4]
 # print(a+b)
+
 # 34. Find even numbers in list
 # lst = [1,2,3,4]
 # print([x for x in lst if x%2==0])
+
 # 35. Count occurrence
 # lst = [1,2,2,3]
 # print(lst.count(2))
+
+"""-----------------------------------------day2----------------------------"""
+
 # 🔹 FUNCTION PROGRAMS (36–42)
 # 36. Function to add numbers
 # def add(a,b):
 #     return a+b
-
 # print(add(5,3))
+
 # 37. Function factorial
 # def fact(n):
 #     if n==0:
@@ -230,9 +265,11 @@
 # even=sum(1 for x in lst if x%2==0)
 # odd=sum(1 for x in lst if x%2!=0)
 # print(even, odd)
+
 # 49. Find duplicate elements
 # lst=[1,2,2,3,3]
 # print(set([x for x in lst if lst.count(x)>1]))
+
 # 50. Find largest using loop
 # lst=[3,7,2,9]
 # maxi=lst[0]
