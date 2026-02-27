@@ -196,6 +196,8 @@
 
 """-----------------------------------------day2----------------------------"""
 
+"""-----------------------------------------day3----------------------------"""
+
 # 🔹 FUNCTION PROGRAMS (36–42)
 # 36. Function to add numbers
 # def add(a,b):
@@ -207,68 +209,113 @@
 #     if n==0:
 #         return 1
 #     return n*fact(n-1)
-
 # print(fact(5))
+
 # 38. Function palindrome
 # def is_pal(s):
 #     return s==s[::-1]
-
 # print(is_pal("madam"))
+
 # 39. Function to find max
 # def maximum(lst):
 #     return max(lst)
-
 # print(maximum([1,5,3]))
+
 # 40. Function sum of list
 # def sum_list(lst):
 #     return sum(lst)
-
 # print(sum_list([1,2,3]))
+
 # 41. Function prime check
 # def prime(n):
 #     for i in range(2,n):
 #         if n%i==0:
 #             return False
 #     return True
-
 # print(prime(7))
+
 # 42. Fibonacci function
 # def fib(n):
 #     a,b=0,1
 #     for i in range(n):
 #         print(a)
 #         a,b=b,a+b
-
 # fib(5)
+
 # 🔹 INTERVIEW LEVEL PROGRAMS (43–50)
 # 43. Prime number
-# n=7
-# print(all(n%i!=0 for i in range(2,n)))
-# 44. Fibonacci series
-# a,b=0,1
-# for i in range(5):
-#     print(a)
-#     a,b=b,a+b
+# def check_prime(n, i=2):
+    
+#     if n <= 1:
+#         return False
+    
+#     if i == n:
+#         return True
+    
+#     if n % i == 0:
+#         return False
+    
+#     return check_prime(n, i + 1)
+
+
+# 44. Fibonacci series using recursion 
+# def fib(n):
+#     if n==1:
+#         return 0
+#     elif n==2:
+#         return 1
+#     else:
+#         return fib(n-1)+fib(n-2)    
+# print(fib(10))
+
 # 45. Armstrong number
-# n=153
-# print(sum(int(d)**3 for d in str(n))==n)
-# 46. Find common elements
-# a=[1,2,3]
-# b=[2,3,4]
-# print(list(set(a)&set(b)))
+# num = int(input("Enter a number: "))
+
+# temp = num
+# digits = len(str(num))
+# sum = 0
+
+# while temp > 0:
+#     digit = temp % 10
+#     sum += digit ** digits
+#     temp = temp // 10
+
+# if sum == num:
+#     print("Armstrong number")
+# else:
+#     print("Not an Armstrong number")
+
+
 # 47. Find missing number
 # lst=[1,2,4,5]
 # n=5
 # print(sum(range(1,n+1))-sum(lst))
+
 # 48. Count even and odd
-# lst=[1,2,3,4]
-# even=sum(1 for x in lst if x%2==0)
-# odd=sum(1 for x in lst if x%2!=0)
-# print(even, odd)
+# numbers = [10, 15, 20, 25, 30, 33, 40]
+
+# even_count = 0
+# odd_count = 0
+
+# for num in numbers:
+#     if num % 2 == 0:
+#         even_count += 1
+#     else:
+#         odd_count += 1
+
+# print("Even count:", even_count)
+# print("Odd count:", odd_count)
 
 # 49. Find duplicate elements
-# lst=[1,2,2,3,3]
-# print(set([x for x in lst if lst.count(x)>1]))
+# numbers = [10, 20, 30, 20, 40, 10, 50]
+
+# duplicates = []
+
+# for num in numbers:
+#     if numbers.count(num) > 1 and num not in duplicates:
+#         duplicates.append(num)
+
+# print("Duplicate elements:", duplicates)
 
 # 50. Find largest using loop
 # lst=[3,7,2,9]
